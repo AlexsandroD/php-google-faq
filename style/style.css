@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
-/* *{
+*:not(ol,ul){
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -21,11 +21,13 @@ body{
 
 .question{
     margin: 10px 0;
+    font-weight: 300;
 }
 span{
     display: block;
     margin: 30px 0;
 }
+ul li { margin-right: 1em }
 
 li{
     margin: 20px 0;
@@ -37,7 +39,7 @@ li{
 header{
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 60px;
     border-bottom: 1px solid lightgray;
 
 }

@@ -77,10 +77,13 @@
 <?php include 'style/style.css'; ?>
 </style>
 <body>
-        <header>
-            <div class="logo"><img src="google.svg" alt="google logo"></div>
-            <div class="text"><div>Privacy & Terms</div></div>
-        </header>
+    
+    <header>
+        <div class="logo"><img src="google.svg" alt="google logo"></div>
+        <div class="text"><div>Privacy & Terms</div></div>
+    </header>
+    
+    <main>
         <div class="container"> 
             <?php foreach ($faqs as $key => $faq ) { ?>
             <div class="faq-container">
@@ -89,6 +92,7 @@
                 <?php } ?> 
             </div>
         </div>
+    </main>
 
 </body>
 </html>
